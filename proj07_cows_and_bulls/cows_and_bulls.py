@@ -24,7 +24,7 @@
 import random
 number = str(random.randint(1000,9999)) #random 4 digit number
 snake = 1
-
+print number
 L = []
 L2 = []
 cows = 0
@@ -51,7 +51,7 @@ while snake == 1:
     for letter in user_guess:
         L2.append(letter)
     for  x in range(0, 4):
-        if L2[x] == L:
+        if L2[x] == L[x]:
             cows = cows + 1
             print "You have " + str(cows) + " cows and " + str(bulls) + " bulls."
             L2[counter] = "&"
