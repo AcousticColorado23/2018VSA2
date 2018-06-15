@@ -64,7 +64,7 @@ for letter in word:
 print "Welcome to Hangman! Type 0 to exit."
 print "I am thinking of a word " +str(len(word)) + " letters long."
 print L2
-print word
+
 
 
 while counter > 0 and exit == 1:
